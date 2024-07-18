@@ -26,7 +26,7 @@ const Form = () => {
     try {
       const { username, email, password } = formData;
       const response = await axios.post(
-        "http://127.0.0.1:8000/apis/register/",
+        "https://billing-system-api-1.onrender.com/apis/register/",
         {
           username,
           email,
