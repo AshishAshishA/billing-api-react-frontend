@@ -32,10 +32,9 @@ const UseCases = () => {
           <p className="bg-cover bg-gray-200 text-center max-w-[500px] border-4 rounded-xl ">
             <pre>
               <code>
-                {`
-const response = await fetch("url");
+                {`const response = await fetch("url");
 const result = await response.json();
-                `}
+console.log(result);`}
               </code>
             </pre>
           </p>
