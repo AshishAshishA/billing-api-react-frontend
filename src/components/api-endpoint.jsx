@@ -19,7 +19,7 @@ const ApiEndpoint = () => {
       {apiurls.map((url) => (
         <div className="flex flex-col justify-center items-center gap-4 sm:p-2 mx-2 sm:mx-8 text-sm sm:text-base">
           <p className="text-gray-300">{url.description}</p>
-          <p className="text-blue-950 bg-gray-400 sm:font-semibold sm:px-2 bg-cover sm:w-[700px]">
+          <p className="text-blue-700 bg-gray-400 sm:font-semibold sm:px-2 bg-cover sm:w-[700px]">
             {url.endpoint}
             <span className="mr-0">
               <div className="inline mx-auto">
